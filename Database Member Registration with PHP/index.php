@@ -76,7 +76,7 @@ if (isset($_POST["save"])) {
                         <a class="nav-link active" aria-current="page" href="index.php">Sign In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Log  In</a>
+                        <a class="nav-link" href="login.php">Log In</a>
                     </li>
                 </ul>
             </div>
@@ -137,7 +137,15 @@ if (isset($_POST["save"])) {
             </form>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <div class="card-footer text-body-secondary">
+        <center>
+            <p>Design by <a href="https://www.linkedin.com/in/%C3%B6mer-k%C4%B1l%C4%B1%C3%A7-5513b1252" target="_blank" style="text-decoration: none; color:black;"><b>ÖMER KILIÇ </b></a> | &copy; 2023</p>
+        </center>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
