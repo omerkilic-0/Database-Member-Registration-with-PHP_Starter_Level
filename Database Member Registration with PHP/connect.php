@@ -1,12 +1,12 @@
 <?php
 
-    $host = "localhost";
-    $user = "root";
-    $parola = "";
-    $dataBase = "membership";
+$host = "localhost";
+$user = "root";
+$parola = "";
+$dataBase = "membership";
 
-    $connect = mysqli_connect($host, $user, $parola, $dataBase);
+$connect = mysqli_connect($host, $user, $parola, $dataBase);
 
-    mysqli_set_charset($connect, "UTF8");
-    
+mysqli_set_charset($connect, "UTF8");
+
 ?>

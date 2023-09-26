@@ -1,8 +1,8 @@
 <?php
-    session_start();
+session_start();
 
-    $_SESSION = array();
+$_SESSION = array();
 
-    session_destroy();
-    
-    header("location: login.php");
+session_destroy();
+
+header("location: login.php");
